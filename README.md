@@ -8,8 +8,26 @@ To install pnpm, run the following command:
 npm run install:pnpm
 ```
 
-To install dependencies, run the following command:
+## Running the Application Locally
 
-```sh
-npm run install:dependencies
-```
+To run the application locally, follow these steps:
+
+1. **Install dependencies**:
+   ```bash
+   pnpm install
+   ```
+
+2. **Run the development server**:
+   ```bash
+   pnpm dev
+   ```
+
+3. **Build the application**:
+   ```bash
+   pnpm build
+   ```
+
+4. **Start the production server**:
+   ```bash
+   pnpm start
+   ```
