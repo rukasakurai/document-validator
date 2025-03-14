@@ -1,5 +1,13 @@
 # document-validator
 
+## Installation
+
+To install pnpm, run the following command:
+
+```sh
+npm run install:pnpm
+```
+
 ## Running the Application Locally
 
 To run the application locally, follow these steps:
@@ -23,12 +31,3 @@ To run the application locally, follow these steps:
    ```bash
    pnpm start
    ```
-
-If `pnpm` is not recognized or there are dependency conflicts, use the following command instead:
-   ```bash
-   npm install --legacy-peer-deps
-   ```
-
-## What is legacy-peer-deps?
-
-The `--legacy-peer-deps` flag in npm is used to bypass peer dependency auto-installation. When you use this flag, npm will not attempt to install peer dependencies automatically, which can help resolve dependency conflicts that may arise during the installation process. This flag is particularly useful when dealing with older packages that may have conflicting or outdated peer dependencies.
