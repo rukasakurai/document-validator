@@ -5,7 +5,7 @@
 To install pnpm, run the following command:
 
 ```sh
-npm run install:pnpm
+npm install -g pnpm
 ```
 
 ## Running the Application Locally
